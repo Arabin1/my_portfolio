@@ -1,0 +1,50 @@
+{
+  "data": {
+    "dark": {
+      "id": "T_001",
+      "name": "default",
+      "colors": {
+        "background": {
+          "background": "#3D4C53",
+          "background_1": "#4DB3B3",
+          "box_background": "#FFFFFF",
+          "nav_background": "#143e49",
+          "opacity": "rgba(61, 76, 83, 0.55)"
+        },
+        "nav": {
+          "nav_text": "#C0C0C0",
+          "nav_text_hover": "#FFFFFF"
+        },
+        "button": {
+          "resume_button": "#FFFFFF",
+          "resume_button_text": "#565656",
+          "resume_button_hover": "#4DB3B3",
+          "resume_button_hover_text": "#FFFFFF",
+          "button": "#4DB3B3",
+          "button_hover": "#119A9A",
+          "button_text": "#FFFFFF"
+        },
+        "icon": "#FFFFFF",
+        "icon_hover": "#DFDFDF",
+        "title_text": "#FFFFFF",
+        "des_text": "#F5F5F5",
+        "education_text": "#989A99",
+        "placeholder_text": "#E4E4E4",
+        "toggler_color": "#82959E"
+      },
+      "icons": {
+        "xd": "/icons/xd.png",
+        "next": "/icons/next.png"
+      },
+      "projects": {
+        "results": "/images/projects/results.png",
+        "snake_game": "/images/projects/snake_game.png",
+        "tic_tac_toe": "/images/projects/tic_tac_toe.png",
+        "portfolio": "/images/projects/portfolio.png",
+        "hacker_news": "/images/projects/hacker_news.png",
+        "color_rating": "/images/projects/color_rating.png"
+      },
+      "font": "Open Sans"
+    }
+  }
+}

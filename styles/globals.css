@@ -1,0 +1,188 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Chilanka", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  padding: 0;
+}
+
+.home-wrapper {
+  position: relative;
+  margin-top: 62px;
+}
+
+.home-container {
+  height: calc(100vh - 62px);
+}
+
+@keyframes about-animation {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.about {
+  color: white;
+  margin-top: 50px;
+  font-size: 20px;
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 20px;
+  max-height: 20px;
+  text-align: center;
+  animation: about-animation 5s linear 1s infinite normal;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.project-wrapper {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+}
+
+.project-des-container {
+  height: 120px;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.skill-wrapper {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+}
+
+.ms-bootstrap {
+  margin-left: 55px;
+}
+
+.ms-java {
+  margin-left: 38px;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 700px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 20px;
+}
+
+.box-with-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  margin: 50px 0 50px 0;
+}
+
+.display-none {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .box {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .project-des-container {
+    height: 155px;
+  }
+
+  .box {
+    width: 480px;
+  }
+
+  .skill-wrapper {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .project-wrapper {
+    width: 50%;
+  }
+
+  .skill-wrapper {
+    height: 215px;
+  }
+
+  .box {
+    width: 100%;
+    margin: 0 0 -60px;
+  }
+
+  .box-with-arrow {
+    flex-direction: column;
+    justify-items: start;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .education {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .project-wrapper {
+    width: 100%;
+  }
+
+  .project-des-container {
+    height: 120px;
+  }
+
+  .skill-wrapper {
+    height: auto;
+    width: 100%;
+  }
+}
